@@ -1,0 +1,6 @@
+test_twitter_bot_random_file.py
+
+working/config.json
+working/credentials.json
+working/__pycache__/
+work_env/

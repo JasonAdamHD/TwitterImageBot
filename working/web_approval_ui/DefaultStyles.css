@@ -1,0 +1,59 @@
+.approvalGrid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px auto auto;
+}
+
+#pic{
+    grid-column: span 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#approve{
+    background-color: #009f00;
+}
+
+#approve:hover{
+    background-color: #007f00;
+}
+
+#approve:active{
+    background-color: grey;
+}
+
+#deny{
+    background-color: #bf0000;
+}
+
+#deny:hover{
+    background-color: #9f0000;
+}
+
+#deny:active{
+    background-color: grey;
+}
+
+#skip{
+    background-color: #efef00;
+    grid-column: span 2;
+}
+
+#skip:hover{
+    background-color: #cfcf00;
+}
+
+#skip:active{
+    background-color: grey;
+}
+
+#approve, #deny, #skip{
+    border: none;
+    font-size: large;
+    padding: 1%;
+    margin: 0.5%;
+}
